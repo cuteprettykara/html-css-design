@@ -5,15 +5,27 @@
     --main-color: #5D9AB2;
     --accent-color: #Bf6A7A;
     --dark-color: #2B5566;
+    --text-bright-color: #fff;
 }
 
 /* 기본설정: 페이지 전체 */
 body {
     font-family: '맑은 고딕', 'Apple SD Gothic Neo', 'sans-serif';
+    margin: 0;
 }
 
 .conA {
     text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("/img/fruits.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    color: var(--text-bright-color);
 }
 
 .conA h1 {
@@ -29,6 +41,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
