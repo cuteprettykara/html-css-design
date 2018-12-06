@@ -28,6 +28,10 @@ body {
     color: var(--text-bright-color);
 }
 
+.conA img {
+    width: 20%;
+}
+
 .conA h1 {
     margin-top: 0;
     margin-bottom: 10px;
